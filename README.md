@@ -1,35 +1,40 @@
-Company Application Acceptance and Announcement System
+# Company Application Acceptance and Announcement System
 
-A simple web-based platform that allows job applicants to submit applications and lets the company review and announce accepted applicants.
-This project functions as a mini HR recruitment system combined with a public announcement board.
+A simple web-based platform that allows users to apply for job positions and enables the company to review, accept, or reject applications. Accepted applicants are displayed on a public announcements page.
 
-📌 Features
-👥 User Side
+## Features
 
-Home Page – Introduction to the company, mission statement, and available job positions.
+### User Side
+- Home Page
+- Job Application Page
+- Application Status Page
+- Announcements Page
+- Contact Page
 
-Job Application Page – Form where applicants can submit their information and upload their CV.
+### Admin Side (Concept)
+- Review submitted applications
+- Accept or reject applicants
+- Update announcements
 
-Application Status Page – Allows applicants to check whether they were accepted or rejected.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-Announcements Page – Displays a list of accepted applicants or general updates.
+## Project Structure
+/project-folder  
+├── index.html  
+├── application.html  
+├── status.html  
+├── announcements.html  
+├── contact.html  
+├── css/  
+│   └── styles.css  
+├── js/  
+│   └── script.js  
+└── assets/  
 
-Contact Page – Contact information or inquiry form.
-
-🛠 Admin Side (Concept)
-
-Review applicant submissions
-
-Accept or reject applicants
-
-Post announcements
-
-(Admin features depend on your implementation.)
-
-🧰 Technologies Used
-
-HTML5 – Page structure
-
-CSS3 – Styling and layout
-
-JavaScript – Interactivity, dynamic content, and form validation
+## How to Use
+1. Clone or download the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
