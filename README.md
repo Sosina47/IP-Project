@@ -21,20 +21,4 @@ A simple web-based platform that allows users to apply for job positions and ena
 - CSS
 - JavaScript
 
-## Project Structure
-/project-folder  
-├── index.html  
-├── application.html  
-├── status.html  
-├── announcements.html  
-├── contact.html  
-├── css/  
-│   └── styles.css  
-├── js/  
-│   └── script.js  
-└── assets/  
 
-## How to Use
-1. Clone or download the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
