@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Klick job apk form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>Klick</h2>
+        </div>
+
+        <div class="nav_bar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="application.html">Application</a></li>
+                    <li><a href="status.html">Status</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <h2> Job Application Form</h2>
+            <form id="jobForm">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="Enter your full name" required>
+
+            <label for="Email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="Phone Number">Phone Number</label>
+            <input type="text" id="phone" placeholder="+251 9..." required>
+
+            <label>Position You Are Applying For</label>
+            <select id="position" required>
+                <option value="">-- Select Position --</option>
+                <option>Web Developer</option>
+                <option>Graphics Designer</option>
+                <option>Database Manager</option>
+                <option>HR Assistant</option>
+                <option>Ai Engineer</option>
+                <option>Data Analyist</option>
+                <option>Project Manager</option>
+                <option>Ai prompt Engineer</option>
+                <option>Mobile APP Developer</option>
+                <option>System Analyist</option>
+            </select>
+
+            <label for="Skills">Skills</label>
+            <textarea id="skills" placeholder="List your skills..." required></textarea>
+
+            <label>Upload CV (PDF)</label>
+            <input type="file" id="cv" accept=".pdf" required>
+            <small>Upload PDF only (max 2MB)</small>
+
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <h3>Contact</h3>
+            <p>+251 9**</p>
+            <p>+251 9**</p>
+            <p>+251 9**</p>
+        </div>
+
+        <div class="Email">
+            <h3>Email</h3>
+            <p>Klicks@gmail.com</p>
+            <p>Alemu34@gmail.com</p>
+            <p>helpklick@gmail.com</p>
+        </div>
+
+        <div class="copy_right">
+            <p>© 2025 Klick</p>
+        </div>
+    </footer>
+
+    <script src="form.js"></script>
+</body>
+</html>
+
+    
