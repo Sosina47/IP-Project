@@ -3,75 +3,99 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home - Company</title>
-        <link rel="stylesheet" href="#">
+        <title>Klick Company | Home</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>
-    
+
     <body>
-        <header>
-            <div class="logo">
-            </div>
-            <div class="nav_bar">
-                <nav>
-                    <ul>
-                        <li><a href="Home.html">Home</a></li>
-                        <li><a href="jpk.html">Application</a></li>
-                        <li><a href="">Status</a></li>
-                        <li><a href="Announcement.html">Announcements</a></li>
-                        <li><a href="About_us.html">About Us</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <header class="header">
+            <div class="logo">Klick</div>
+            <nav class="nav-bar menu-bar">
+                <ul class="bars">
+                    <li><a class="active" href="home.html">Home</a></li>
+                    <li><a href="application.html">Application</a></li>
+                    <li><a href="status.html">Status</a></li>
+                    <li><a href="Announcement.html">Announcements</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-bars menu" style="color: #edeff3;"></i>
         </header>
-    
+
         <main>
             <section class="hero">
                 <h1>Welcome to Klick Company</h1>
                 <p>Your future begins here — explore opportunities, apply for open positions, and stay updated.</p>
+                <button class="btn">Get Started</button>
             </section>
-     
+
             <section class="about">
                 <h2>Who We Are</h2>
                 <p>
                     Klick is a fast-growing company dedicated to innovation, creativity,
-                    and building strong teams. We aim to provide opportunities
-                    for passionate individuals who want to grow their career with us.
+                    and building strong teams. We provide opportunities for passionate
+                    individuals who want to grow their careers with us.
                 </p>
             </section>
-     
+
             <section class="latest">
                 <h2>Latest Announcements</h2>
-                <div class="announcement-preview">
-                    <h3>Recent Updates</h3>
-                    <p>Visit our announcements page to see the latest hiring updates, promotions, and company news.</p>
-                    <a href="Announcement.html">View Announcements</a>
+
+                <div class="announcement-container">
+
+                    <div class="announcement-card">
+                        <button class="tag new">New</button>
+                        <h3>Junior Web Developer</h3>
+                        <p>We are hiring Junior Web Developers. Submit your application before <strong>April 5, 2025</strong>.</p>
+                    </div>
+
+                    <div class="announcement-card">
+                        <button class="tag update">Update</button>
+                        <h3>Interview Schedule Released</h3>
+                        <p>The interview schedule for IT Support applicants is now available. Check your application status.</p>
+                    </div>
+
+                    <div class="announcement-card">
+                        <button class="tag important">Important</button>
+                        <h3>Internship Program 2025</h3>
+                        <p>Klick’s Summer Internship Program is now open for students and fresh graduates.</p>
+                    </div>
+
                 </div>
+
+                <button class="btn-outline">View All Announcements</button>
             </section>
-     
-            <section class="apply-now">
+
+
+            <section class="apply">
                 <h2>Ready to Apply?</h2>
                 <p>Check available opportunities and submit your application today.</p>
-                <a href="#">Go to Application Page</a>
+                <button class="btn">Apply Now</button>
             </section>
+
         </main>
-     
-        <footer>
-            <div class="contact">
+
+        <footer class="footer">
+            <div class="footer-section">
                 <h3>Contact</h3>
-                <p>+251 9** ** ** **</p>
-                <p>+251 9** ** ** **</p>
-                <p>+251 9** ** ** **</p>
+                <p>+251 900 21 31 78</p>
+                <p>+251 940 70 17 17</p>
             </div>
-            <div class="Email">
+
+            <div class="footer-section">
                 <h3>Email</h3>
-                <p>Klicks@gmail.com</p>
-                <p>Alemu34@gamil.com</p>
+                <p>klicks@gmail.com</p>
+                <p>alemu34@gmail.com</p>
                 <p>helpklick@gmail.com</p>
             </div>
-            <div class="copy_right">
-                <p>&copy; 2025 Klick</p>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Klick Company. All rights reserved.</p>
             </div>
         </footer>
-    </body>
 
+        <script src="home.js"></script>
+
+    </body>
 </html>
