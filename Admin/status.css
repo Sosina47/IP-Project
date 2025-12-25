@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2933;
+    padding: 15px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-bar a:hover,
+.nav-bar .active {
+    color: #38bdf8;
+}
+
+/* Main */
+.status-main {
+    margin-top: 90px;
+    padding: 40px 20px;
+}
+
+/* Hero */
+.status-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #658fe9, #384f9d);
+    color: white;
+    border-radius: 8px;
+}
+
+.status-hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Status Box */
+.status-box {
+    background: #ffffff;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.status-box h2 {
+    margin-bottom: 20px;
+}
+
+.status-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+.btn {
+    background: #38bdf8;
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+/* Result */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background: #1f2933;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .nav-bar ul {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klicks Admin - Manage Announcements</title>
+    <link rel="stylesheet" href="Admin_anouncemet.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" id="navbar__logo">Klicks Admin</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="nav-bar" id="navbar__menu">
+            <ul class="bars">
+                <li><a  href="home.html">Home</a></li>
+                <li><a href="Application_admin.html">Application</a></li>
+                <li><a href="status.html">Status</a></li>
+                <li><a class="active"href="Admin_anouncemet.html">Announcements</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="admin-title">Announcement Manager</h1>
+
+        <!-- POSTING FORM -->
+        <section class="form-section">
+            <h2>Create New Announcement</h2>
+            <div class="form-group">
+                <label for="title">Announcement Title</label>
+                <input type="text" id="title" placeholder="e.g., Emily Rodriguez Promoted to Lead Designer">
+            </div>
+            <div class="form-group">
+                <label for="type">Announcement Type</label>
+                <select id="type">
+                    <option value="New Hire">New Hire</option>
+                    <option value="Promotion">Promotion</option>
+                    <option value="General Update">General Update</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="details">Details / Content</label>
+                <textarea id="details" rows="4" placeholder="Enter the announcement message..."></textarea>
+            </div>
+            <button class="btn-publish" id="publish-btn">Publish Announcement</button>
+        </section>
+
+        <!-- MANAGEMENT TABLE -->
+        <section class="table-section">
+            <h2>Manage Current Announcements</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Type</th>
+                        <th>Date Posted</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="announcement-list">
+                    <tr>
+                        <td>Susan Williums Joins as Frontend Engineer</td>
+                        <td>New Hire</td>
+                        <td>11/15/2025</td>
+                        <td><button class="btn-delete">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>+251 911 12 34 56</p>
+            <p>+251 922 65 43 21</p>
+            <p>+251 933 11 22 33</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Email</h3>
+            <p>klicks@gmail.com</p>
+            <p>alemu34@gmail.com</p>
+            <p>helpklick@gmail.com</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Klick Company. Admin Portal.</p>
+        </div>
+    </footer>
+
+    <script src="Admin_anouncemet.js"></script>
+</body>
+
+</html>

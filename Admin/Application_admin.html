@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="Application_admin.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header-section">
+
+        <nav class="nav-bar">
+            <span class="logo">Klick</span>
+            <ul class="bars">
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active"  href="Application_admin.html">Application</a></li>
+                <li><a href="status.html">Status</a></li>
+                <li><a href="Admin_anouncemet.html">Announcements</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Admin Table -->
+    <main class="admin-dashboard">
+        <h2>Admin Job Applications</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Position</th>
+                    <th>Skills</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="applicationsTable"></tbody>
+        </table>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="footer-contact">
+            <div>
+                <strong>Contact</strong><br>
+                +251 9 40701717<br>
+                +251 9 00213178
+            </div>
+            <div>
+                <strong>Email</strong><br>
+                klicks@gmail.com<br>
+                helpklick@gmail.com
+            </div>
+        </div>
+        <p>© 2025 Klick Company. All rights reserved.</p>
+    </footer>
+
+    <script src="Application_admin.js"></script>
+</body>
+
+</html>

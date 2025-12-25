@@ -1,0 +1,94 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #f1f5f9;
+    color: #1f2933;
+}
+
+
+.header-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.header-section p {
+    font-size: 1em;
+}
+
+/* Navigation */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2933;
+    padding: 10px 40px;
+}
+
+.nav-bar .logo {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Admin Table Section */
+.admin-dashboard {
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1f2933;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #1f2933;
+    color: white;
+}
+
+/* Footer */
+.footer-section {
+    background: #1f2933;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.footer-contact div {
+    text-align: left;
+}
