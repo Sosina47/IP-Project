@@ -5,11 +5,11 @@ A simple web-based platform that allows users to apply for job positions and ena
 ## Features
 
 ### User Side
-- Home Page
-- Job Application Page
-- Application Status Page
-- Announcements Page
-- Contact Page
+- **Home Page** – Introduction and navigation  
+- **Job Application Page** – Submit applications online  
+- **Application Status Page** – Check the progress of submitted applications  
+- **Announcements Page** – View accepted applicants and company updates  
+- **Contact Page** – Reach out to the company for inquiries
 
 ### Admin Side (Concept)
 - Review submitted applications
