@@ -1,0 +1,106 @@
+/* Import shared styles */
+@import url("home.css");
+
+/* About Us Section */
+.about-us {
+    padding: 60px 40px;
+    background: #f1f5f9;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.company-info,
+.team-info {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.company-info h2,
+.team-info h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.company-info p,
+.team-info p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #333;
+}
+
+.team-info ul {
+    padding-left: 20px;
+}
+
+.team-info li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+}
+/* Hamburger menu */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Mobile navbar */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-bar {
+        position: relative;
+    }
+
+    .bars {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        z-index: 999;
+    }
+
+    .bars.active {
+        display: flex;
+    }
+
+    .bars li {
+        padding: 12px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    .bars li:last-child {
+        border-bottom: none;
+    }
+
+    .bars a {
+        display: block;
+        padding: 8px 0;
+    }
+}
